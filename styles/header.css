@@ -1,0 +1,146 @@
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+
+}
+
+/* left-section */
+/* left-section */
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
+
+.var-menu {
+    height: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.youtube-logo {
+    height: 75px;
+    cursor: pointer;
+}
+
+/* middle-section */
+/* middle-section */
+
+.middle-section {
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex;
+    align-items: center;
+
+}
+
+.search-bar {
+    flex:1;
+    height: 35px;
+    width: 0;
+    padding-left: 20px;
+    font-size: 15px;
+    
+    background-color: #181818;
+    color: white;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border:1px solid #4d4d4d;
+}
+
+.search-button {
+    height: 35px;
+    width: 50px;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    border: 1px solid #4d4d4d;
+    background-color: #4d4d4d;
+    margin-right: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.voice-search-button {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #121212;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.tooltip {
+    color: white;
+    background-color: gray;
+    font-size: 12px;
+
+    position: absolute;
+    padding : 8px;
+    border-radius: 5px;
+    left: -20px;
+    bottom: -40px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.voice-search-button:hover .tooltip {
+    opacity: 1;
+}
+
+.search-icon {
+    height: 20px;
+}
+
+.voice-search-icon {
+    height: 25px;
+}
+
+
+/* right-section */
+/* right-section */
+
+.right-section {
+    width: 180px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upload-icon {
+    height: 25px;
+}
+
+.apps-icon {
+    height: 25px;
+}
+
+.alim-icon {
+    height: 25px;
+}
+
+.user-icon {
+    height: 30px;
+    border-radius: 20px;
+}
+
