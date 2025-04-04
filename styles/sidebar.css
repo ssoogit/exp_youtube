@@ -3,17 +3,17 @@
     left: 0;
     bottom: 0;
     top: 50px;
-    background-color: #212121FF;
+    background-color: #181818;
     width: 75px;
     z-index: 200;
     padding-top: 5px;
-
+    text-align: center;
 }
 
 
 
 .sidebar-link {
-    height: 75px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,3 +21,11 @@
     cursor: pointer;
 }
 
+.sidebar-icons {
+    height: 25px;
+}
+
+p {
+    color: white;
+    font-size: 10px;
+}
