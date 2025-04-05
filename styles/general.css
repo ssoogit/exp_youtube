@@ -14,3 +14,7 @@ body {
     padding-left: 90px;
     padding-right: 25px;
 }
+
+a {
+    text-decoration: none;
+}
